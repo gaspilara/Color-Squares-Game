@@ -2,7 +2,7 @@
 
 _In this game you neither win nor lose._
 
-_It's very simple: just choose your favorite color and start filling in the boxes until you completely complete your screen._
+_It's very simple: just choose your favorite color and start filling in the boxes until you completely complete your screen and you can restart the game with a different color._
 
 ## Technologies
 
