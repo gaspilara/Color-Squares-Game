@@ -1,0 +1,99 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(6, 18, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+}
+    .root {
+        background-color: rgb(6, 18, 29);
+    }
+
+    .welcome {
+        width: 90vw;
+        height: 180vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        .form-welcome {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+            .form-welcome input, .form-welcome button {
+                border: none;
+                border-radius: 5em;
+                outline: none;
+                margin: 0;
+            }
+            .form-welcome input {
+                width: 100%;
+                height: 40%;
+                background: none;
+                color: white;
+                padding: 0;
+            }
+            .form-welcome button {
+                width: 50%;
+                height: 50px;
+                background-color: rgb(6, 18, 29);
+                color: white;
+                position: absolute;
+            }
+
+    .board {
+        width: 90vw;
+        height: 180vw;
+        margin: 0; 
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);   
+        grid-template-rows: repeat(10, 1fr);   
+        /*
+        */
+    }
+    @media only screen and (min-width: 600px) {
+        .board {
+            width: 180vh;
+            height: 90vh;
+            grid-template-rows: repeat(5, 1fr);   
+            grid-template-columns: repeat(10, 1fr);    
+        }
+
+    }
+
+
+    @keyframes pulse {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+
+    .square-size {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .bg-black {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        margin: 0; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .bg-black img {
+            width: 90%; 
+        }
